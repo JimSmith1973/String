@@ -1,4 +1,4 @@
-// Minimal.h
+// String.h
 
 #pragma once
 
@@ -10,10 +10,11 @@
 
 #include "..\Classes\ArgumentListClass.h"
 #include "..\Classes\MessageClass.h"
+#include "..\Classes\StringClass.h"
 
 #define ABOUT_MESSAGE_ICON_NAME													IDI_APPLICATION
 
-#define ABOUT_MESSAGE_TEXT														"Minimal\r\n"						\
+#define ABOUT_MESSAGE_TEXT														"String\r\n"						\
 																				"\r\n"								\
 																				"Written by Jim Smith\r\n"			\
 																				"\r\n"								\

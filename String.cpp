@@ -1,6 +1,6 @@
-// Minimal.cpp
+// String.cpp
 
-#include "Minimal.h"
+#include "String.h"
 
 void OpenFileFunction( LPCTSTR lpszFilePath )
 {
@@ -49,6 +49,18 @@ int WINAPI WinMain( HINSTANCE, HINSTANCE, LPSTR, int )
 		argumentList.ProcessArguments( &OpenFileFunction );
 
 	} // End of successfully got argument list
+
+	// Initialise string
+	String string( "Hello World!" );
+
+	// Display string
+	string.Display();
+
+	// Update string
+	string = "Another one.";
+
+	// Display string
+	string.Display();
 
 	// Show about message
 	ShowAboutMessage( NULL );
