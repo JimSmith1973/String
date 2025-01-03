@@ -63,6 +63,13 @@ int WINAPI WinMain( HINSTANCE, HINSTANCE, LPSTR, int )
 	// Display string
 	string.Display();
 
+	String string1 = "yo";
+	String string2 = " bud";
+	String string3 = string1 + string2;
+
+	// Display string
+	string3.Display();
+
 	// Show about message
 	ShowAboutMessage( NULL );
 
