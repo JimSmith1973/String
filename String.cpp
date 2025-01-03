@@ -57,7 +57,8 @@ int WINAPI WinMain( HINSTANCE, HINSTANCE, LPSTR, int )
 	string.Display();
 
 	// Update string
-	string = "Another one.";
+	string += "\r\nAnother line.";
+	string += '#';
 
 	// Display string
 	string.Display();
